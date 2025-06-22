@@ -1,6 +1,6 @@
 {
-    "name": "WheresMyCharityWater",
-    "short_name": "WheresMyCharityWater",
+    "name": "WheresMyCharity:Water",
+    "short_name": "WheresMyCharity:Water",
     "start_url": "index.html",
     "display": "fullscreen",
     "background_color": "#231F20",

@@ -1,4 +1,4 @@
-const cacheName = "Chimeraware-WheresMyCharityWater-0.1";
+const cacheName = "Chimeraware-WheresMyCharity:Water-0.1";
 const contentToCache = [
     "Build/CharityWaterUnity.loader.js",
     "Build/CharityWaterUnity.framework.js.unityweb",
