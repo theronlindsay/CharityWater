@@ -6,11 +6,12 @@
     <title>Unity Web Player | WheresMyCharity:Water</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="UnityBuild.css">
     <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
     <div id="unity-container">
-      <canvas id="unity-canvas" width=400 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=500 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -57,12 +58,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/CharityWaterUnity.loader.js";
+      var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/CharityWaterUnity.data.unityweb",
-        frameworkUrl: buildUrl + "/CharityWaterUnity.framework.js.unityweb",
-        codeUrl: buildUrl + "/CharityWaterUnity.wasm.unityweb",
+        dataUrl: buildUrl + "/Build.data.unityweb",
+        frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
+        codeUrl: buildUrl + "/Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Chimeraware",
         productName: "WheresMyCharity:Water",

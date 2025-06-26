@@ -1,9 +1,9 @@
 const cacheName = "Chimeraware-WheresMyCharity:Water-0.1";
 const contentToCache = [
-    "Build/CharityWaterUnity.loader.js",
-    "Build/CharityWaterUnity.framework.js.unityweb",
-    "Build/CharityWaterUnity.data.unityweb",
-    "Build/CharityWaterUnity.wasm.unityweb",
+    "Build/Build.loader.js",
+    "Build/Build.framework.js.unityweb",
+    "Build/Build.data.unityweb",
+    "Build/Build.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
